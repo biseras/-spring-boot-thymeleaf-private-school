@@ -1,0 +1,67 @@
+<th:block xmlns:th="http://www.thymeleaf.org">
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Students</h1>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <form action="/ucenik/add" method="POST">
+                    <input id="id" type="hidden" name="id" th:value="(${ucenik} != null ? ${ucenik.getId()} : '')">
+                    <div class="form-group">
+                        <label for="ime">Ime</label>
+                        <input type="text"
+                               class="form-control"
+                               id="ime"
+                               name="ime"
+                               th:value="(${ucenik} != null ? ${ucenik.getIme()} : '')"
+                               required
+                               placeholder="Enter product name">
+                    </div>
+                    <div class="form-group">
+                        <label for="prezime">Prezime</label>
+                        <input type="text"
+                               class="form-control"
+                               id="prezime"
+                               name="prezime"
+                               th:value="(${ucenik} != null ? ${ucenik.getPrezime()} : '')"
+                               placeholder="Price">
+                    </div>
+                    <div class="form-group">
+                        <label for="datum">Datum na ragjanje</label>
+                        <input type="text"
+                               class="form-control"
+                               id="datum"
+                               name="datum"
+                               th:value="(${ucenik} != null ? ${ucenik.getDatum()} : '')"
+                               placeholder="Price">
+                    </div>
+                    <div class="form-group">
+                        <label for="adresa">Adresa na ziveenje</label>
+                        <input type="text"
+                               class="form-control"
+                               id="adresa"
+                               name="adresa"
+                               th:value="(${ucenik} != null ? ${ucenik.getAdresa()} : '')"
+                               placeholder="Quantity">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Datum na ragjanje</label>
+                        <input type="text"
+                               class="form-control"
+                               id="email"
+                               name="email"
+                               th:value="(${ucenik} != null ? ${ucenik.getEmail()} : '')"
+                               placeholder="Price">
+                    </div>
+                    <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                    <a type="button" class="btn btn-primary" href="/ucenik">Back</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</th:block>

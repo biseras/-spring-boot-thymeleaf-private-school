@@ -1,0 +1,72 @@
+<th:block xmlns:th="http://www.thymeleaf.org">
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">WEB PROGRAMMING SHOP</h1>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <form action="/izvestuvanje/add" method="POST">
+                    <input id="id" type="hidden" name="id" th:value="(${izvestuvanje} != null ? ${izvestuvanje.getId()} : '')">
+                    <div class="form-group">
+                        <label for="naslov">Product name</label>
+                        <input type="text"
+                               class="form-control"
+                               id="naslov"
+                               name="naslov"
+                               th:value="(${izvestuvanje} != null ? ${izvestuvanje.getNaslov()} : '')"
+                               required
+                               placeholder="Enter product name">
+                    </div>
+                    <div class="form-group">
+                    <label>Profesor</label>
+                    <select name="profesorId" class="form-control">
+                        <option th:if="${izvestuvanje} != null"
+                                th:selected="${izvestuvanje.getProfesor() != null && izvestuvanje.getProfesor().getId() == izv.getId()}"
+                                th:each="izv : ${izvestuvanje}"
+                                th:value="${izv.getId()}"
+                                th:text="${izv.getNaslov()}">
+                        </option>
+                        <option th:if="${izvestuvanje} == null"
+                                th:each="prof : ${profesor}"
+                                th:value="${prof.getId()}"
+                                th:text="${prof.getIme()}">
+                        </option>
+                    </select>
+                     </div>
+                    <div>
+                        <label>Type</label><br/>
+                        <select id="kategorija" name="kategorija">
+                            <!-- For each type you should have one <option> like below  -->
+                            <option value="ucenickiaktivnosti">Ucenicki aktivnosti</option>
+                            <option value="ekskurzii">Ekskurzii</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="kratokvoved">Kratok voved</label>
+                        <input type="text"
+                               class="form-control"
+                               id="kratokvoved"
+                               name="kratokvoved"
+                               th:value="(${izvestuvanje} != null ? ${izvestuvanje.getKratokvoved()} : '')"
+                               placeholder="Kratok voved">
+                    </div>
+                    <div class="form-group">
+                        <label for="celoizvestuvanje">Celo izvestuvanje</label>
+                        <input type="text"
+                               class="form-control"
+                               id="celoizvestuvanje"
+                               name="celoizvestuvanje"
+                               th:value="(${izvestuvanje} != null ? ${izvestuvanje.getCeloizvestuvanje()} : '')"
+                               placeholder="Price">
+                    </div>
+
+                    <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                    <a type="button" class="btn btn-primary" href="/izvestuvanje">Back</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</th:block>

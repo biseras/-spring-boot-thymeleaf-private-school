@@ -1,0 +1,85 @@
+<th:block xmlns:th="http://www.thymeleaf.org">
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Profesor</h1>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <form action="/profesor/add" method="POST">
+                    <input id="id" type="hidden" name="id" th:value="(${profesor} != null ? ${profesor.getId()} : '')">
+                    <div class="form-group">
+                        <label for="ime">Ime</label>
+                        <input type="text"
+                               class="form-control"
+                               id="ime"
+                               name="ime"
+                               th:value="(${profesor} != null ? ${profesor.getIme()} : '')"
+                               required
+                               placeholder="Enter product name">
+                    </div>
+                    <div class="form-group">
+                        <label for="prezime">Prezime</label>
+                        <input type="text"
+                               class="form-control"
+                               id="prezime"
+                               name="prezime"
+                               th:value="(${profesor} != null ? ${profesor.getPrezime()} : '')"
+                               placeholder="Price">
+                    </div>
+                    <div class="form-group">
+                        <label for="objasnuvanje">Kratko objasnuvanje</label>
+                        <input type="text"
+                               class="form-control"
+                               id="objasnuvanje"
+                               name="objasnuvanje"
+                               th:value="(${profesor} != null ? ${profesor.getObjasnuvanje()} : '')"
+                               placeholder="Quantity">
+                    </div>
+                    <div class="form-group">
+                        <label for="biografija">Biografija</label>
+                        <input type="text"
+                               class="form-control"
+                               id="biografija"
+                               name="biografija"
+                               th:value="(${profesor} != null ? ${profesor.getBiografija()} : '')"
+                               placeholder="Quantity">
+                    </div>
+                    <div class="form-group">
+                        <label for="obrazovanieirabotnoiskustvo">Obrazovanie</label>
+                        <input type="text"
+                               class="form-control"
+                               id="obrazovanieirabotnoiskustvo"
+                               name="obrazovanieirabotnoiskustvo"
+                               th:value="(${profesor} != null ? ${profesor.getObrazovanieirabotnoiskustvo()} : '')"
+                               placeholder="Quantity">
+                    </div>
+                    <div class="form-group">
+                        <label for="datumodkogaraboti">Biografija</label>
+                        <input type="text"
+                               class="form-control"
+                               id="datumodkogaraboti"
+                               name="datumodkogaraboti"
+                               th:value="(${profesor} != null ? ${profesor.getDatumodkogaraboti()} : '')"
+                               placeholder="Quantity">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text"
+                               class="form-control"
+                               id="email"
+                               name="email"
+                               th:value="(${profesor} != null ? ${profesor.getEmail()} : '')"
+                               placeholder="Quantity">
+                    </div>
+                    <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                    <a type="button" class="btn btn-primary" href="/profesor">Back</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</th:block>
