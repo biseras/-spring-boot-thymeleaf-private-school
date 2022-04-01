@@ -1,50 +1,38 @@
 <div xmlns:th="http://www.thymeleaf.org">
-    <section class="jumbotron text-center">
-        <div class="container">
-            <h1 class="jumbotron-heading">WEB PROGRAMMING SHOP</h1>
-            <h3 class="jumbotron-heading">All products</h3>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" th:if="${profesor.size() > 0}">
+        <div class="carousel-item active">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title 2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
-
-    <div class="container mb-4">
-        <div class="row">
-            <div class="col-12" th:if="${profesor.size() > 0}">
-                <ol class="list-group list-group-numbered" th:each="profesor : ${profesor}">
-                    <li class="list-group-item d-flex justify-content-between align-items-start">
-                        <div class="ms-2 me-auto">
-                            <div class="font-weight-bold" th:text="${profesor.getIme()}"></div>
-                            <div class="font-weight-bold" th:text="${profesor.getPrezime()}"></div>
-                            Adresa:<div class="fw-bold" th:text="${profesor.getEmail()}"></div>
-                        </div>
-                        <span>
-                              <th:block>
-                                    <a th:href="@{'/profesor/edit-form/{id}' (id=${profesor.getId()})}"
-                                       class="btn btn-sm btn-info edit-product">
-                                        <i class="fa fa-trash">Edit</i>
-                                    </a>
-                                </th:block>
-                              <th:block>
-                                    <form th:action="@{'/profesor/delete/{id}' (id=${profesor.getId()})}"
-                                          th:method="DELETE">
-                                        <button type="submit"
-                                                class="btn btn-sm btn-danger delete-product">
-                                            <i class="fa fa-trash">Delete</i>
-                                        </button>
-                                    </form>
-                                </th:block>
-                          </span>
-                    </li>
-                </ol>
+        <div class="carousel-item" th:each="profesor : ${profesor}">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 th:text="${profesor.getIme()}" class="card-title">Card title 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col mb-3">
-        <div class="row">
-            <div class="col-sm-12 col-md-12">
-                <a href="/profesor/add-form" class="btn btn-block btn-dark add-product-btn">
-                    Add new profesor
-                </a>
-            </div>
-        </div>
-    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 </div>
