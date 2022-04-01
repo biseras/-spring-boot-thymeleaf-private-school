@@ -6,8 +6,8 @@
                 <div class="card">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title 2</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Nastaven kadar</h5>
+                        <p class="card-text">Procitajte gi site poznacsajni informacii za nastavnniot kadar vo naseto uciliste</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
@@ -18,9 +18,30 @@
                 <div class="card">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 th:text="${profesor.getIme()}" class="card-title">Card title 1</h5>
+                        <h5 th:text="${profesor.getIme()}" class="card-title"></h5>
+                        <h5 th:text="${profesor.getPrezime()}" class="card-title"></h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <form th:action="@{'/profesor/delete/{id}' (id=${profesor.getId()})}"
+                              th:method="DELETE">
+                            <button type="submit"
+                                    class="btn btn-sm btn-danger delete-product">
+                                <i class="fa fa-trash">Delete</i>
+                            </button>
+                        </form>
+                        </th:block>
+                        <th:block>
+                            <a th:href="@{'/profesor/edit-form/{id}' (id=${profesor.getId()})}"
+                               class="btn btn-sm btn-info edit-product">
+                                <i class="fa fa-trash">Edit</i>
+                            </a>
+                        </th:block>
+                        <form th:action="@{'/profesor/details/{id}' (id=${profesor.getId()})}"
+                              th:method="GET">
+                            <button type="submit"
+                                    class="btn btn-sm btn-primary cart-product">
+                                <i class="fa fa-trash">Read more</i>
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>
