@@ -8,7 +8,6 @@
                     <div class="card-body">
                         <h5 class="card-title">Nastaven kadar</h5>
                         <p class="card-text">Procitajte gi site poznacsajni informacii za nastavnniot kadar vo naseto uciliste</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
@@ -20,7 +19,7 @@
                     <div class="card-body">
                         <h5 th:text="${profesor.getIme()}" class="card-title"></h5>
                         <h5 th:text="${profesor.getPrezime()}" class="card-title"></h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p> hgcgcgfcfcfgcgcv gvgb vhv </p>
                         <form th:action="@{'/profesor/delete/{id}' (id=${profesor.getId()})}"
                               th:method="DELETE">
                             <button type="submit"
@@ -56,4 +55,13 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+    <div class="col mb-3">
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <a href="/profesor/add-form" class="btn btn-block btn-dark add-product-btn">
+                    Add new profesor
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
