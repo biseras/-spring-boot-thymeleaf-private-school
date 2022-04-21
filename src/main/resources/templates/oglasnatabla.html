@@ -1,20 +1,19 @@
 <div xmlns:th="http://www.thymeleaf.org">
-<div>
-    <br>
-    <p></p>
-</div>
-    <div class="container" style="max-width:1400px;">
-        <div class="row">
-            <div class="col-2">
-            </div>
-            <div class="col-8" th:if="${izvestuvanje.size() > 0}">
-                <div class="card text-center" th:each="izvestuvanje : ${izvestuvanje}">
-                    <div th:text="${izvestuvanje.getKategorija()}" class="card-header">Featured</div>
-                    <div class="card-body">
-                        <h5 th:text="${izvestuvanje.getNaslov()}" class="card-title">NASA Launched Solar Probe</h5>
-                        <p th:text="${izvestuvanje.getKratokvoved()}" class="card-text">NASA launched Parker space probe in 2018 with the mission of making observations of the outer corona of the Sun. It is the first-ever mission to "touch" the Sun.</p>
-                        <p th:text="${izvestuvanje.getCeloizvestuvanje()}" class="card-text">NASA launched Parker space probe in 2018 with the mission of making observations of the outer corona of the Sun. It is the first-ever mission to "touch" the Sun.</p>
-                        <span>
+
+    <div class="container">
+        <div>
+            <div th:if="${izvestuvanje.size() > 0}">
+                <div th:each="izvestuvanje : ${izvestuvanje}">
+                        <div>
+                            <br>
+                            <div class="card" style="background-color: ghostwhite">
+                            <h2 th:text="${izvestuvanje.getNaslov()}" style="text-align: center"></h2>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="https://st2.depositphotos.com/3643473/6063/i/600/depositphotos_60639935-stock-photo-man-giving-an-announcement-at.jpg"/>
+                                      </div>
+                                <div class="col-md-9">
+                                    <h5 th:text="${izvestuvanje.getKratokvoved()}"></h5> <span>
                               <th:block>
                                     <a th:href="@{'/izvestuvanje/edit-form/{id}' (id=${izvestuvanje.getId()})}"
                                        class="btn btn-sm btn-info edit-product">
@@ -30,13 +29,20 @@
                                         </button>
                                     </form>
                                 </th:block>
+                            <form th:action="@{'/izvestuvanje/details/{id}' (id=${izvestuvanje.getId()})}"
+                                  th:method="GET">
+                            <button type="submit"
+                                    class="btn btn-sm btn-primary cart-product">
+                                <i class="fa fa-trash">Read more</i>
+                            </button>
+                        </form>
                           </span>
-                    </div>
-                    <div th:text="${izvestuvanje.getProfesor().getIme()}" class="card-footer text-muted">3 years ago</div>
-                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                            <br>
                 </div>
-            </div>
-            <div class="col-2">
             </div>
         </div>
     </div>
@@ -48,5 +54,18 @@
                 </a>
             </div>
         </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="container">
+
+<br>
+
     </div>
 </div>

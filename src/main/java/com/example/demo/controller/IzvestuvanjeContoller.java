@@ -51,6 +51,16 @@ public class IzvestuvanjeContoller {
         }
         return "redirect:/izvestuvanje?error=IzvestuvanjeNotFound";
     }
+    @GetMapping("/details/{id}")
+    public String addDetailsPage(Model model, @PathVariable Long id) {
+        if (this.izvestuvanjeService.findById(id).isPresent()) {
+            Izvestuvanje izvestuvanje = this.izvestuvanjeService.findById(id).get();
+            model.addAttribute("izvestuvanje", izvestuvanje);
+            model.addAttribute("bodyContent", "izvestuvanje-more");
+            return "master-template";
+        }
+        return "redirect:/profesor?error=UcenikNotFound";
+    }
 
     @GetMapping("/add-form")
     public String addProductPage(Model model) {
