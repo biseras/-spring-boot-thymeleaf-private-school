@@ -1,0 +1,33 @@
+<th:block xmlns:th="http://www.thymeleaf.org">
+
+    <div>
+        <br>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <form action="/role/urediuloga" method="POST">
+                    <div class="form-group">
+                        <label for="user">Predmet</label><br/>
+                        <select id="user" name="user">
+                            <!-- For each course you should have one <option> like below  -->
+                            <option th:each="user:${user}" th:value="${user.username}" th:text="${user.username}"> [user.username]</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" name="role" type="radio" id="ROLE_PROFESOR" value="ROLE_PROFESOR">
+                        <label class="form-check-label" for="ROLE_PROFESOR">ROLE_PROFESOR</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" name="role"  type="radio" id="ROLE_UCENIK" value="ROLE_UCENIK">
+                        <label class="form-check-label" for="ROLE_UCENIK">ROLE_UCENIK</label>
+                    </div>
+
+                    <button id="submit" type="submit" class="btn btn-primary">Објави</button>
+                    <a type="button" class="btn btn-primary" href="/login">Назад</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</th:block>

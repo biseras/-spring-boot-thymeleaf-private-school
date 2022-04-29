@@ -19,13 +19,13 @@
 
                              </div>
                           <span>
-                              <th:block>
+                              <th:block sec:authorize="hasRole('ROLE_PROFESOR')">
                                     <a th:href="@{'/ucenik/edit-form/{id}' (id=${ucenik.getId()})}"
                                        class="btn btn-sm btn-info edit-product">
                                         <i class="glyphicon glyphicon-edit">Уреди</i>
                                     </a>
                                 </th:block>
-                              <th:block>
+                              <th:block sec:authorize="hasRole('ROLE_PROFESOR')">
                                     <form th:action="@{'/ucenik/delete/{id}' (id=${ucenik.getId()})}"
                                           th:method="DELETE">
                                         <button type="submit"
@@ -42,7 +42,7 @@
     </div>
     <div class="col mb-3">
         <div class="row">
-            <div class="col-sm-12 col-md-12">
+            <div class="col-sm-12 col-md-12" sec:authorize="hasRole('ROLE_PROFESOR')">
                 <a href="/ucenik/add-form" class="btn btn-block btn-dark add-product-btn">
                     Додади нов студент
                 </a>

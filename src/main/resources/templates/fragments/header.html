@@ -1,4 +1,4 @@
-<header xmlns:th="http://www.thymeleaf.org">
+<header xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="/">E-Dnevnik</a>
@@ -10,7 +10,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item m-auto">
-                        <a class="nav-link active" href="/ucenik">Students</a>
+                        <a class="nav-link active" sec:authorize="isAuthenticated()" href="/ucenik">Students</a>
                     </li>
                     <li class="nav-item m-auto">
                         <a class="nav-link active" href="/profesor">Profesor</a>
@@ -22,24 +22,27 @@
                         <a class="nav-link active" href="/predmet">Predmeti</a>
                     </li>
                     <li class="nav-item m-auto">
-                        <a class="nav-link active" href="/dnevnik">Dnevnik</a>
+                        <a class="nav-link active" sec:authorize="isAuthenticated()" href="/dnevnik">Dnevnik</a>
+                    </li>
+                    <li class="nav-item m-auto">
+                        <a class="nav-link active" href="/contact">Contact</a>
                     </li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item">
-                        <a class="btn btn-success btn-sm ml-3" href="/shopping-cart">
-                            <i class="fa fa-shopping-cart"></i> Cart
+                    <li class="nav-item" sec:authorize="isAuthenticated()">
+                        <a class="btn btn-light btn-sm ml-3"  href="/logout">
+                            <i></i> Logout
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="btn btn-light btn-sm ml-3" href="/logout">
-                            <i class="fa fa-shopping-cart"></i> Logout
-                        </a>
-                    </li>
-                    <li class="nav-item">
+                    <li class="nav-item" sec:authorize="!isAuthenticated()">
                         <a class="btn btn-light btn-sm ml-3" href="/login">
-                            <i class="fa fa-shopping-cart"></i> Login
+                            <i></i> Login
+                        </a>
+                    </li>
+                    <li class="nav-item" sec:authorize="!isAuthenticated()">
+                        <a class="btn btn-light btn-sm ml-3" href="/register">
+                            <i></i> Register
                         </a>
                     </li>
                 </ul>

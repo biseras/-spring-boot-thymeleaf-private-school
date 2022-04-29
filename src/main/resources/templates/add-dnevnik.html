@@ -1,0 +1,124 @@
+<th:block xmlns:th="http://www.thymeleaf.org">
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Внеси студент</h1>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <form action="/ucenik/add" method="POST">
+                    <input id="id" type="hidden" name="id" th:value="(${ucenik} != null ? ${ucenik.getId()} : '')">
+                    <div class="form-group">
+                        <label for="ime">Име на студентот</label>
+                        <input type="text"
+                               class="form-control"
+                               id="ime"
+                               name="ime"
+                               th:value="(${ucenik} != null ? ${ucenik.getIme()} : '')"
+                               required
+                               disabled
+                               placeholder="Име на студентот">
+                    </div>
+                    <div class="form-group">
+                        <label for="prezime">Презиме на студентот</label>
+                        <input type="text"
+                               class="form-control"
+                               id="prezime"
+                               name="prezime"
+                               th:value="(${ucenik} != null ? ${ucenik.getPrezime()} : '')"
+                               disabled
+                               placeholder="Презиме на студентот">
+                    </div>
+                    <div class="form-group">
+                        <label for="datum">Датум на раѓање</label>
+                        <input type="text"
+                               class="form-control"
+                               id="datum"
+                               name="datum"
+                               th:value="(${ucenik} != null ? ${ucenik.getDatum()} : '')"
+                               disabled
+                               placeholder="Датум на раѓање">
+                    </div>
+                    <div class="form-group">
+                        <label for="adresa">Адреса на живеење</label>
+                        <input type="text"
+                               class="form-control"
+                               id="adresa"
+                               name="adresa"
+                               th:value="(${ucenik} != null ? ${ucenik.getAdresa()} : '')"
+                               disabled
+                               placeholder="Адреса на живеење">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="text"
+                               class="form-control"
+                               id="email"
+                               name="email"
+                               th:value="(${ucenik} != null ? ${ucenik.getEmail()} : '')"
+                               disabled
+                               placeholder="E-mail">
+                    </div>
+                    <label for="predmet1">Predmet</label><br/>
+                    <select id="predmet1" name="predmet1" disabled>
+                        <!-- For each course you should have one <option> like below  -->
+                        <option th:each="predmet:${predmet}" th:value="${predmet.id}" th:text="${predmet.ime}"> [predmet.ime]</option>
+                    </select>
+                    <div>
+                        <label for="ocenka1">Quantity (between 1 and 5):</label>
+                        <input type="number" id="ocenka1" name="ocenka1" min="1" max="5">
+                    </div>
+                    <div>
+                        <label for="predmet2">Predmet</label><br/>
+                        <select id="predmet2" name="predmet2" disabled>
+                            <!-- For each course you should have one <option> like below  -->
+                            <option th:each="predmet:${predmet}" th:value="${predmet.id}" th:text="${predmet.ime}"> [predmet.ime]</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="ocenka2">Quantity (between 1 and 5):</label>
+                        <input type="number" id="ocenka2" name="ocenka2" min="1" max="5">
+                    </div>
+                    <div>
+                        <label for="predmet3">Predmet</label><br/>
+                        <select id="predmet3" name="predmet3" disabled>
+                            <!-- For each course you should have one <option> like below  -->
+                            <option th:each="predmet:${predmet}" th:value="${predmet.id}" th:text="${predmet.ime}"> [predmet.ime]</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="ocenka3">Quantity (between 1 and 5):</label>
+                        <input type="number" id="ocenka3" name="ocenka3" min="1" max="5">
+                    </div>
+                    <div>
+                        <label for="predmet4">Predmet</label><br/>
+                        <select id="predmet4" name="predmet4" disabled>
+                            <!-- For each course you should have one <option> like below  -->
+                            <option th:each="predmet:${predmet}" th:value="${predmet.id}" th:text="${predmet.ime}"> [predmet.ime]</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="ocenka4">Quantity (between 1 and 5):</label>
+                        <input type="number" id="ocenka4" name="ocenka4" min="1" max="5">
+                    </div>
+                    <div>
+                        <label for="predmet5">Predmet</label><br/>
+                        <select id="predmet5" name="predmet5" disabled>
+                            <option th:each="predmet:${predmet}" th:value="${predmet.id}" th:text="${predmet.ime}"> [predmet.ime]</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="ocenka5">Quantity (between 1 and 5):</label>
+                        <input type="number" id="ocenka5" name="ocenka5" min="1" max="5">
+                    </div>
+                    <button id="submit" type="submit" class="btn btn-primary">Зачувај</button>
+                    <a type="button" class="btn btn-primary" href="/ucenik">Назад</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</th:block>

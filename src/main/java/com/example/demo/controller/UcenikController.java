@@ -79,7 +79,7 @@ public class UcenikController {
             @RequestParam Long predmet5,
             @RequestParam(required = false) Integer ocenka5) {
         if (id != null) {
-            //this.ucenikService.edit(id, ime, prezime, datum, adresa, email, predmet1, ocenka1, predmet2, ocenka2, predmet3, ocenka3, predmet4, ocenka4, predmet5, ocenka5);
+            this.ucenikService.edit(id, ime, prezime, datum, adresa, email, predmet1, ocenka1, predmet2, ocenka2, predmet3, ocenka3, predmet4, ocenka4, predmet5, ocenka5);
         } else {
             this.ucenikService.save(ime, prezime, datum, adresa, email, predmet1, ocenka1, predmet2, ocenka2, predmet3, ocenka3, predmet4, ocenka4, predmet5, ocenka5);
         }

@@ -1,0 +1,1457 @@
+2022-04-30 00:03:51,250 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:03:51,262 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 00:03:51,284 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 00:03:58,576 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 5776 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 00:03:58,596 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 00:03:59,812 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 00:03:59,955 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 119 ms. Found 7 JPA repository interfaces.
+2022-04-30 00:04:00,873 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 00:04:00,886 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 00:04:00,886 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 00:04:01,065 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 00:04:01,066 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2358 ms
+2022-04-30 00:04:01,345 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 00:04:01,421 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 00:04:01,638 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 00:04:01,790 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 00:04:02,030 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 00:04:02,054 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 00:04:03,331 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 00:04:03,346 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:04:03,930 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 00:04:04,434 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 00:04:04,783 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 00:04:05,136 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 00:04:05,152 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 7.722 seconds (JVM running for 9.448)
+2022-04-30 00:04:09,735 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 00:04:09,739 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 00:04:09,741 INFO  FrameworkServlet:547 - [] Completed initialization in 1 ms
+2022-04-30 00:04:10,263 INFO  LoginController:30 - [] Pristapeno e do login stranata
+2022-04-30 00:12:38,153 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:12:38,158 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 00:12:38,163 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 00:12:44,454 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 8068 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 00:12:44,474 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 00:12:45,743 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 00:12:45,901 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 137 ms. Found 7 JPA repository interfaces.
+2022-04-30 00:12:46,804 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 00:12:46,817 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 00:12:46,818 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 00:12:46,994 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 00:12:46,994 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2419 ms
+2022-04-30 00:12:47,282 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 00:12:47,378 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 00:12:47,601 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 00:12:47,760 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 00:12:47,989 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 00:12:48,021 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 00:12:49,327 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 00:12:49,344 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:12:50,015 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 00:12:50,569 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 00:12:51,005 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 00:12:51,379 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 00:12:51,398 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 8.036 seconds (JVM running for 9.996)
+2022-04-30 00:12:54,343 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 00:12:54,344 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 00:12:54,345 INFO  FrameworkServlet:547 - [] Completed initialization in 1 ms
+2022-04-30 00:12:54,854 INFO  LoginController:30 - [] Pristapeno e do login stranata
+2022-04-30 00:12:55,941 INFO  LoginController:30 - [] Pristapeno e do login stranata
+2022-04-30 00:21:18,166 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:21:18,173 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 00:21:18,180 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 00:21:24,132 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 8732 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 00:21:24,146 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 00:21:25,440 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 00:21:25,591 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 132 ms. Found 7 JPA repository interfaces.
+2022-04-30 00:21:26,493 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 00:21:26,505 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 00:21:26,505 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 00:21:26,691 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 00:21:26,692 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2430 ms
+2022-04-30 00:21:26,975 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 00:21:27,043 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 00:21:27,267 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 00:21:27,418 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 00:21:27,661 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 00:21:27,684 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 00:21:28,986 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 00:21:29,002 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:21:29,575 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 00:21:30,046 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 00:21:30,396 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 00:21:30,734 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 00:21:30,749 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 7.752 seconds (JVM running for 9.494)
+2022-04-30 00:21:39,570 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 00:21:39,571 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 00:21:39,573 INFO  FrameworkServlet:547 - [] Completed initialization in 1 ms
+2022-04-30 00:21:40,060 INFO  LoginController:30 - [] Pristapeno e do login stranata
+2022-04-30 00:21:41,320 INFO  LoginController:30 - [] Pristapeno e do login stranata
+2022-04-30 00:22:59,351 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:22:59,352 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 00:22:59,368 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 00:23:05,734 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 9124 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 00:23:05,734 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 00:23:06,884 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 00:23:07,021 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 120 ms. Found 7 JPA repository interfaces.
+2022-04-30 00:23:07,921 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 00:23:07,933 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 00:23:07,934 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 00:23:08,112 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 00:23:08,113 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2276 ms
+2022-04-30 00:23:08,397 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 00:23:08,466 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 00:23:08,691 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 00:23:08,842 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 00:23:09,078 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 00:23:09,104 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 00:23:10,438 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 00:23:10,461 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:23:11,045 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 00:23:11,518 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 00:23:11,868 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 00:23:12,218 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 00:23:12,233 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 7.605 seconds (JVM running for 9.62)
+2022-04-30 00:23:18,199 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 00:23:18,200 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 00:23:18,204 INFO  FrameworkServlet:547 - [] Completed initialization in 3 ms
+2022-04-30 00:23:18,791 INFO  LoginController:30 - [] Pristapeno e do login stranata
+2022-04-30 00:25:45,421 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:25:45,426 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 00:25:45,436 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 00:25:52,530 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 12296 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 00:25:52,545 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 00:25:54,716 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 00:25:54,978 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 232 ms. Found 7 JPA repository interfaces.
+2022-04-30 00:25:56,459 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 00:25:56,476 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 00:25:56,476 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 00:25:56,761 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 00:25:56,761 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 4055 ms
+2022-04-30 00:25:57,233 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 00:25:57,332 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 00:25:57,803 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 00:25:58,143 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 00:25:58,533 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 00:25:58,576 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 00:26:00,980 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 00:26:01,008 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:26:01,994 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 00:26:03,029 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 00:26:03,677 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 00:26:04,233 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 00:26:04,265 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 13.391 seconds (JVM running for 15.423)
+2022-04-30 00:27:16,210 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 00:27:16,212 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 00:27:16,215 INFO  FrameworkServlet:547 - [] Completed initialization in 2 ms
+2022-04-30 00:27:16,998 INFO  LoginController:30 - [] Pristapeno e do login stranata
+2022-04-30 00:27:56,122 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:27:56,127 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 00:27:56,131 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 00:28:02,280 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 11648 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 00:28:02,288 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 00:28:03,553 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 00:28:03,692 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 121 ms. Found 7 JPA repository interfaces.
+2022-04-30 00:28:04,621 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 00:28:04,635 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 00:28:04,635 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 00:28:04,805 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 00:28:04,806 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2426 ms
+2022-04-30 00:28:05,090 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 00:28:05,161 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 00:28:05,384 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 00:28:05,535 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 00:28:05,765 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 00:28:05,790 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 00:28:07,093 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 00:28:07,111 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:28:07,672 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 00:28:08,191 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 00:28:08,582 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 00:28:08,963 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 00:28:08,980 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 7.841 seconds (JVM running for 9.654)
+2022-04-30 00:28:13,936 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 00:28:13,936 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 00:28:13,938 INFO  FrameworkServlet:547 - [] Completed initialization in 1 ms
+2022-04-30 00:33:27,564 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:33:27,572 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 00:33:27,580 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 00:33:33,647 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 7756 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 00:33:33,654 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 00:33:34,877 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 00:33:35,017 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 122 ms. Found 7 JPA repository interfaces.
+2022-04-30 00:33:35,908 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 00:33:35,920 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 00:33:35,920 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 00:33:36,084 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 00:33:36,085 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2320 ms
+2022-04-30 00:33:36,430 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 00:33:36,505 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 00:33:36,723 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 00:33:36,873 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 00:33:37,106 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 00:33:37,141 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 00:33:38,423 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 00:33:38,438 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:33:39,028 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 00:33:39,506 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 00:33:39,860 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 00:33:40,205 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 00:33:40,220 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 7.65 seconds (JVM running for 9.54)
+2022-04-30 00:33:44,803 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 00:33:44,804 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 00:33:44,805 INFO  FrameworkServlet:547 - [] Completed initialization in 0 ms
+2022-04-30 00:34:26,899 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:34:26,903 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 00:34:26,911 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 00:34:33,425 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 7432 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 00:34:33,427 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 00:34:34,597 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 00:34:34,741 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 127 ms. Found 7 JPA repository interfaces.
+2022-04-30 00:34:35,687 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 00:34:35,700 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 00:34:35,701 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 00:34:35,862 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 00:34:35,863 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2315 ms
+2022-04-30 00:34:36,154 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 00:34:36,223 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 00:34:36,449 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 00:34:36,601 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 00:34:36,847 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 00:34:36,875 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 00:34:38,209 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 00:34:38,226 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:34:38,794 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 00:34:39,269 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 00:34:39,613 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 00:34:39,965 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 00:34:39,982 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 7.589 seconds (JVM running for 9.678)
+2022-04-30 00:34:51,722 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 00:34:51,722 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 00:34:51,724 INFO  FrameworkServlet:547 - [] Completed initialization in 2 ms
+2022-04-30 00:36:37,039 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:36:37,042 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 00:36:37,051 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 00:36:43,323 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 15200 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 00:36:43,331 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 00:36:44,511 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 00:36:44,657 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 129 ms. Found 7 JPA repository interfaces.
+2022-04-30 00:36:45,560 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 00:36:45,573 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 00:36:45,574 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 00:36:45,739 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 00:36:45,740 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2319 ms
+2022-04-30 00:36:46,018 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 00:36:46,087 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 00:36:46,313 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 00:36:46,463 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 00:36:46,708 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 00:36:46,732 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 00:36:48,018 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 00:36:48,033 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:36:48,601 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 00:36:49,063 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 00:36:49,414 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 00:36:49,759 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 00:36:49,774 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 7.555 seconds (JVM running for 9.408)
+2022-04-30 00:36:53,496 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 00:36:53,497 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 00:36:53,499 INFO  FrameworkServlet:547 - [] Completed initialization in 1 ms
+2022-04-30 00:39:02,686 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:39:02,689 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 00:39:02,695 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 00:39:08,984 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 14276 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 00:39:08,991 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 00:39:10,225 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 00:39:10,364 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 123 ms. Found 7 JPA repository interfaces.
+2022-04-30 00:39:11,257 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 00:39:11,270 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 00:39:11,270 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 00:39:11,435 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 00:39:11,436 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2333 ms
+2022-04-30 00:39:11,718 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 00:39:11,789 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 00:39:12,013 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 00:39:12,168 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 00:39:12,412 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 00:39:12,436 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 00:39:13,737 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 00:39:13,753 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:39:14,321 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 00:39:14,795 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 00:39:15,160 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 00:39:15,497 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 00:39:15,513 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 7.643 seconds (JVM running for 9.678)
+2022-04-30 00:40:15,014 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 00:40:15,015 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 00:40:15,016 INFO  FrameworkServlet:547 - [] Completed initialization in 1 ms
+2022-04-30 00:52:56,992 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:52:57,000 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 00:52:57,015 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 00:53:04,145 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 9424 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 00:53:04,185 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 00:53:05,935 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 00:53:06,145 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 186 ms. Found 7 JPA repository interfaces.
+2022-04-30 00:53:07,278 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 00:53:07,293 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 00:53:07,294 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 00:53:07,482 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 00:53:07,483 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 3146 ms
+2022-04-30 00:53:07,854 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 00:53:07,949 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 00:53:08,280 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 00:53:08,461 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 00:53:08,725 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 00:53:08,757 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 00:53:10,284 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 00:53:10,300 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:53:10,980 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 00:53:11,555 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 00:53:11,978 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 00:53:12,373 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 00:53:12,395 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 9.692 seconds (JVM running for 12.117)
+2022-04-30 00:53:21,642 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 00:53:21,643 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 00:53:21,648 INFO  FrameworkServlet:547 - [] Completed initialization in 4 ms
+2022-04-30 00:53:21,740 INFO  LoginController:30 - [] Pristapeno e do login stranata
+2022-04-30 00:55:22,966 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 00:55:22,977 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 00:55:22,989 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 01:05:44,201 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 6664 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 01:05:44,210 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 01:05:46,855 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 01:05:47,085 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 206 ms. Found 7 JPA repository interfaces.
+2022-04-30 01:05:48,639 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 01:05:48,661 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 01:05:48,666 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 01:05:49,002 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 01:05:49,004 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 4661 ms
+2022-04-30 01:05:49,585 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 01:05:49,714 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 01:05:50,030 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 01:05:50,229 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 01:05:53,376 ERROR HikariPool:594 - [] HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:319)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:400)
+	at org.postgresql.Driver.connect(Driver.java:259)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.example.demo.SpringBootThymeleafPrivateSchoolApplication.main(SpringBootThymeleafPrivateSchoolApplication.java:15)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:241)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:109)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	... 50 common frames omitted
+2022-04-30 01:05:53,381 WARN  JdbcEnvironmentInitiator:133 - [] HHH000342: Could not obtain connection to query metadata
+org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:319)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:400)
+	at org.postgresql.Driver.connect(Driver.java:259)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.example.demo.SpringBootThymeleafPrivateSchoolApplication.main(SpringBootThymeleafPrivateSchoolApplication.java:15)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:241)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:109)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	... 50 common frames omitted
+2022-04-30 01:05:53,410 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 01:05:55,218 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 01:05:58,263 ERROR HikariPool:594 - [] HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:319)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:400)
+	at org.postgresql.Driver.connect(Driver.java:259)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:44)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63)
+	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43)
+	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60)
+	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:183)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:104)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:192)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:81)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.example.demo.SpringBootThymeleafPrivateSchoolApplication.main(SpringBootThymeleafPrivateSchoolApplication.java:15)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:241)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:109)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	... 49 common frames omitted
+2022-04-30 01:05:58,266 WARN  SqlExceptionHelper:137 - [] SQL Error: 0, SQLState: 08001
+2022-04-30 01:05:58,268 ERROR SqlExceptionHelper:142 - [] Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2022-04-30 01:05:58,288 ERROR AbstractEntityManagerFactoryBean:426 - [] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+2022-04-30 01:05:58,292 WARN  AbstractApplicationContext:591 - [] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+2022-04-30 01:05:58,297 INFO  DirectJDKLog:173 - [] Stopping service [Tomcat]
+2022-04-30 01:05:58,319 INFO  ConditionEvaluationReportLoggingListener:136 - [] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-30 01:05:58,358 ERROR SpringApplication:830 - [] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.example.demo.SpringBootThymeleafPrivateSchoolApplication.main(SpringBootThymeleafPrivateSchoolApplication.java:15)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:112)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:71)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63)
+	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43)
+	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60)
+	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:183)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:104)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:192)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:81)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:319)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:400)
+	at org.postgresql.Driver.connect(Driver.java:259)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:44)
+	... 35 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:241)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:109)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	... 49 common frames omitted
+2022-04-30 01:06:36,527 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 1896 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 01:06:36,534 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 01:06:38,319 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 01:06:38,512 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 168 ms. Found 7 JPA repository interfaces.
+2022-04-30 01:06:39,829 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 01:06:39,846 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 01:06:39,848 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 01:06:40,037 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 01:06:40,038 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 3287 ms
+2022-04-30 01:06:40,413 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 01:06:40,489 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 01:06:40,750 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 01:06:40,940 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 01:06:41,307 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 01:06:41,337 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 01:06:42,907 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 01:06:42,924 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:06:43,958 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 01:06:45,430 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 01:06:46,184 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 01:06:46,831 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 01:06:46,872 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 11.927 seconds (JVM running for 15.16)
+2022-04-30 01:06:53,716 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 01:06:53,717 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 01:06:53,723 INFO  FrameworkServlet:547 - [] Completed initialization in 5 ms
+2022-04-30 01:06:55,130 INFO  LoginController:30 - [] Pristapeno e do login stranata
+2022-04-30 01:07:02,571 INFO  LoginController:30 - [] Pristapeno e do login stranata
+2022-04-30 01:07:02,832 INFO  LoginController:30 - [] Pristapeno e do login stranata
+2022-04-30 01:07:26,645 WARN  AbstractHandlerExceptionResolver:208 - [] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'ime' for method parameter type String is not present]
+2022-04-30 01:09:51,561 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:09:51,568 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 01:09:51,580 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 01:10:04,186 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 10268 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 01:10:04,193 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 01:10:05,688 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 01:10:05,852 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 147 ms. Found 7 JPA repository interfaces.
+2022-04-30 01:10:06,903 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 01:10:06,917 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 01:10:06,918 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 01:10:07,109 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 01:10:07,110 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2721 ms
+2022-04-30 01:10:07,480 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 01:10:07,555 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 01:10:07,824 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 01:10:08,020 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 01:10:08,317 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 01:10:08,346 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 01:10:09,781 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 01:10:09,797 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:10:10,471 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 01:10:11,049 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 01:10:11,449 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 01:10:11,838 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 01:10:11,855 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 9.017 seconds (JVM running for 11.433)
+2022-04-30 01:10:19,283 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 01:10:19,284 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 01:10:19,287 INFO  FrameworkServlet:547 - [] Completed initialization in 2 ms
+2022-04-30 01:10:19,427 INFO  LoginController:30 - [] Pristapeno e do login stranata
+2022-04-30 01:10:40,479 WARN  AbstractHandlerExceptionResolver:208 - [] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'ime' for method parameter type String is not present]
+2022-04-30 01:10:59,087 ERROR DirectJDKLog:175 - [] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials p9-20020a056402074900b0042617ba639dsm3447463edy.39 - gsmtp
+] with root cause
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials p9-20020a056402074900b0042617ba639dsm3447463edy.39 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
+	at com.example.demo.controller.ContactController.sendEmail(ContactController.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:219)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:213)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-30 01:15:35,611 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:15:35,627 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 01:15:35,641 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 01:15:41,660 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 9020 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 01:15:41,676 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 01:15:43,038 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 01:15:43,173 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 125 ms. Found 7 JPA repository interfaces.
+2022-04-30 01:15:44,079 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 01:15:44,095 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 01:15:44,095 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 01:15:44,267 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 01:15:44,267 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2475 ms
+2022-04-30 01:15:44,611 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 01:15:44,704 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 01:15:44,986 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 01:15:45,157 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 01:15:45,446 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 01:15:45,462 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 01:15:46,788 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 01:15:46,798 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:15:47,376 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 01:15:47,864 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 01:15:48,202 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 01:15:48,608 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 01:15:48,624 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 8.054 seconds (JVM running for 9.994)
+2022-04-30 01:15:59,297 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 01:15:59,313 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 01:15:59,313 INFO  FrameworkServlet:547 - [] Completed initialization in 0 ms
+2022-04-30 01:16:05,410 INFO  LoginController:30 - [] Pristapeno e do login stranata
+2022-04-30 01:16:20,696 ERROR DirectJDKLog:175 - [] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials og48-20020a1709071df000b006f3ef214e3dsm1060982ejc.163 - gsmtp
+] with root cause
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials og48-20020a1709071df000b006f3ef214e3dsm1060982ejc.163 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
+	at com.example.demo.controller.ContactController.sendEmail(ContactController.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:219)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:213)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-30 01:17:23,607 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:17:23,607 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 01:17:23,626 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 01:17:29,779 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 2472 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 01:17:29,779 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 01:17:31,107 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 01:17:31,247 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 123 ms. Found 7 JPA repository interfaces.
+2022-04-30 01:17:32,154 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 01:17:32,154 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 01:17:32,154 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 01:17:32,328 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 01:17:32,328 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2439 ms
+2022-04-30 01:17:32,615 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 01:17:32,693 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 01:17:32,896 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 01:17:33,052 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 01:17:33,300 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 01:17:33,315 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 01:17:34,594 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 01:17:34,597 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:17:35,175 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 01:17:35,675 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 01:17:36,055 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 01:17:36,427 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 01:17:36,443 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 7.774 seconds (JVM running for 9.623)
+2022-04-30 01:17:42,617 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 01:17:42,617 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 01:17:42,619 INFO  FrameworkServlet:547 - [] Completed initialization in 1 ms
+2022-04-30 01:17:48,144 INFO  LoginController:30 - [] Pristapeno e do login stranata
+2022-04-30 01:18:02,398 ERROR DirectJDKLog:175 - [] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials hx1-20020a170906846100b006f3ef214e45sm1074021ejc.171 - gsmtp
+] with root cause
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials hx1-20020a170906846100b006f3ef214e45sm1074021ejc.171 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
+	at com.example.demo.controller.ContactController.sendEmail(ContactController.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:219)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:213)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-30 01:18:48,534 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:18:48,534 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 01:18:48,552 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 01:18:54,135 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 6412 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 01:18:54,151 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 01:18:55,313 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 01:18:55,454 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 122 ms. Found 7 JPA repository interfaces.
+2022-04-30 01:18:56,318 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 01:18:56,364 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 01:18:56,364 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 01:18:56,521 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 01:18:56,521 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2217 ms
+2022-04-30 01:18:56,802 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 01:18:56,864 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 01:18:57,083 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 01:18:57,240 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 01:18:57,489 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 01:18:57,509 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 01:18:58,757 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 01:18:58,758 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:18:59,336 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 01:18:59,808 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 01:19:00,160 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 01:19:00,504 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 01:19:00,520 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 7.462 seconds (JVM running for 9.405)
+2022-04-30 01:19:10,484 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 01:19:10,486 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 01:19:10,488 INFO  FrameworkServlet:547 - [] Completed initialization in 2 ms
+2022-04-30 01:19:15,540 INFO  LoginController:30 - [] Pristapeno e do login stranata
+2022-04-30 01:19:33,895 ERROR DirectJDKLog:175 - [] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r22-20020a056402035600b00425d6c76494sm3393531edw.1 - gsmtp
+] with root cause
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r22-20020a056402035600b00425d6c76494sm3393531edw.1 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
+	at com.example.demo.controller.ContactController.sendEmail(ContactController.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:219)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:213)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-30 01:23:26,434 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:23:26,434 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 01:23:26,449 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 01:23:31,887 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 1520 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 01:23:31,902 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 01:23:33,080 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 01:23:33,205 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 122 ms. Found 7 JPA repository interfaces.
+2022-04-30 01:23:34,080 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 01:23:34,111 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 01:23:34,111 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 01:23:34,283 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 01:23:34,283 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2272 ms
+2022-04-30 01:23:34,564 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 01:23:34,626 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 01:23:34,861 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 01:23:35,017 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 01:23:35,244 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 01:23:35,259 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 01:23:36,525 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 01:23:36,531 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:23:37,094 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 01:23:37,563 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 01:23:37,923 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 01:23:38,245 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 01:23:38,261 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 7.449 seconds (JVM running for 9.263)
+2022-04-30 01:24:00,057 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 01:24:00,057 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 01:24:00,057 INFO  FrameworkServlet:547 - [] Completed initialization in 0 ms
+2022-04-30 01:24:06,588 INFO  LoginController:30 - [] Pristapeno e do login stranata
+2022-04-30 01:24:23,638 ERROR DirectJDKLog:175 - [] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials og13-20020a1709071dcd00b006f3ef214e3fsm1071622ejc.165 - gsmtp
+] with root cause
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials og13-20020a1709071dcd00b006f3ef214e3fsm1071622ejc.165 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
+	at com.example.demo.controller.ContactController.sendEmail(ContactController.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:219)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:213)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-30 01:26:08,699 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:26:08,699 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 01:26:08,718 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 01:26:15,008 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 1656 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 01:26:15,021 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 01:26:16,367 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 01:26:16,508 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 124 ms. Found 7 JPA repository interfaces.
+2022-04-30 01:26:17,466 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 01:26:17,778 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2594 ms
+2022-04-30 01:26:18,059 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 01:26:18,116 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 01:26:18,304 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 01:26:18,491 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 01:26:18,748 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 01:26:18,765 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 01:26:19,967 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 01:26:19,971 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:26:20,502 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 01:26:21,940 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 01:26:23,259 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 01:26:23,603 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 01:26:23,618 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 9.978 seconds (JVM running for 11.898)
+2022-04-30 01:26:23,650 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:26:23,650 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 01:26:23,666 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 01:26:52,891 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 6796 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 01:26:52,891 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 01:26:54,348 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 01:26:54,520 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 145 ms. Found 7 JPA repository interfaces.
+2022-04-30 01:26:55,567 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 01:26:55,598 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 01:26:55,598 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 01:26:55,817 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 01:26:55,817 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2807 ms
+2022-04-30 01:26:56,150 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 01:26:56,244 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 01:26:56,494 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 01:26:56,666 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 01:26:56,949 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 01:26:56,964 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 01:26:58,464 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 01:26:58,474 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:26:59,146 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 01:26:59,740 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 01:27:00,146 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 01:27:00,568 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 01:27:00,599 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 8.925 seconds (JVM running for 10.932)
+2022-04-30 01:27:09,420 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 01:27:09,421 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 01:27:09,423 INFO  FrameworkServlet:547 - [] Completed initialization in 2 ms
+2022-04-30 01:31:23,891 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:31:23,891 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 01:31:23,907 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 01:31:30,897 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 11832 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 01:31:30,913 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 01:31:32,100 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 01:31:32,241 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 118 ms. Found 7 JPA repository interfaces.
+2022-04-30 01:31:33,142 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 01:31:33,158 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 01:31:33,158 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 01:31:33,330 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 01:31:33,330 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2266 ms
+2022-04-30 01:31:33,611 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 01:31:33,689 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 01:31:33,908 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 01:31:34,064 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 01:31:34,292 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 01:31:34,307 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 01:31:35,597 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 01:31:35,606 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:31:36,168 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 01:31:36,636 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 01:31:36,965 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 01:31:37,309 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 01:31:37,325 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 7.584 seconds (JVM running for 9.594)
+2022-04-30 01:31:46,132 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 01:31:46,133 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 01:31:46,136 INFO  FrameworkServlet:547 - [] Completed initialization in 2 ms
+2022-04-30 01:34:02,143 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:34:02,143 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 01:34:02,152 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 01:34:08,204 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 8304 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 01:34:08,204 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 01:34:09,428 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 01:34:09,568 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 122 ms. Found 7 JPA repository interfaces.
+2022-04-30 01:34:10,459 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 01:34:10,474 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 01:34:10,474 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 01:34:10,631 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 01:34:10,631 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2316 ms
+2022-04-30 01:34:10,938 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 01:34:11,010 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 01:34:11,229 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 01:34:11,385 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 01:34:11,625 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 01:34:11,656 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 01:34:13,014 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 01:34:13,024 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:34:13,581 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 01:34:14,050 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 01:34:14,394 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 01:34:14,777 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 01:34:14,808 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 7.77 seconds (JVM running for 9.694)
+2022-04-30 01:34:18,820 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 01:34:18,821 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 01:34:18,824 INFO  FrameworkServlet:547 - [] Completed initialization in 2 ms
+2022-04-30 01:34:45,785 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:34:45,785 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-30 01:34:45,804 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-30 01:34:52,816 INFO  StartupInfoLogger:55 - [] Starting SpringBootThymeleafPrivateSchoolApplication using Java 15 on DESKTOP-PO61PBT with PID 11936 (C:\Users\38977\ spring-boot-thymeleaf-private-school\target\classes started by 38977 in C:\Users\38977\ spring-boot-thymeleaf-private-school)
+2022-04-30 01:34:52,827 INFO  SpringApplication:646 - [] The following 1 profile is active: "prod"
+2022-04-30 01:34:54,065 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 01:34:54,205 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 122 ms. Found 7 JPA repository interfaces.
+2022-04-30 01:34:55,096 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 9091 (http)
+2022-04-30 01:34:55,112 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-30 01:34:55,112 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 01:34:55,284 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-30 01:34:55,284 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2325 ms
+2022-04-30 01:34:55,573 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 01:34:55,635 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 01:34:55,848 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 01:34:55,999 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-30 01:34:56,251 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-30 01:34:56,267 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-04-30 01:34:57,535 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 01:34:57,547 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:34:58,104 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 01:34:58,588 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-30 01:34:58,916 INFO  WelcomePageHandlerMapping:57 - [] Adding welcome page template: index
+2022-04-30 01:34:59,298 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 9091 (http) with context path ''
+2022-04-30 01:34:59,329 INFO  StartupInfoLogger:61 - [] Started SpringBootThymeleafPrivateSchoolApplication in 7.649 seconds (JVM running for 9.443)
+2022-04-30 01:35:02,227 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 01:35:02,227 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-30 01:35:02,230 INFO  FrameworkServlet:547 - [] Completed initialization in 2 ms
