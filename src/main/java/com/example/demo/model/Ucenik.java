@@ -1,9 +1,7 @@
 package com.example.demo.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Ucenik {
@@ -16,16 +14,20 @@ public class Ucenik {
     private String datum;
     private String adresa;
     private String email;
+    @ManyToMany
+    private List<PredmetnaUcenik> predmetinaucenik;
+
 
     public Ucenik() {
     }
 
-    public Ucenik(String ime, String prezime, String datum, String adresa, String email) {
+    public Ucenik(String ime, String prezime, String datum, String adresa, String email, List<PredmetnaUcenik> predmetinaucenik) {
         this.ime = ime;
         this.prezime = prezime;
         this.datum = datum;
         this.adresa = adresa;
         this.email = email;
+        this.predmetinaucenik = predmetinaucenik;
     }
 
     public Long getId() {
@@ -40,6 +42,9 @@ public class Ucenik {
         this.ime = ime;
     }
 
+    public String getImeiPrezime(){
+        return getPrezime() + getIme();
+    }
     public String getPrezime() {
         return prezime;
     }
@@ -70,5 +75,13 @@ public class Ucenik {
 
     public void setAdresa(String adresa) {
         this.adresa = adresa;
+    }
+
+    public List<PredmetnaUcenik> getPredmetinaucenik() {
+        return predmetinaucenik;
+    }
+
+    public void setPredmetinaucenik(List<PredmetnaUcenik> predmetinaucenik) {
+        this.predmetinaucenik = predmetinaucenik;
     }
 }

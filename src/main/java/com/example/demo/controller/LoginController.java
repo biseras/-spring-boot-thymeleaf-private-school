@@ -3,6 +3,8 @@ package com.example.demo.controller;
 import com.example.demo.model.Exception.InvalidUserCredentialsException;
 import com.example.demo.model.User;
 import com.example.demo.service.AuthService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,6 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 public class LoginController {
 
     private final AuthService authService;
+    Logger logger = LoggerFactory.getLogger(LoginController.class);
 
     public LoginController(AuthService authService) {
         this.authService = authService;
@@ -24,6 +27,7 @@ public class LoginController {
     @GetMapping
     public String getLoginPage(Model model) {
         model.addAttribute("bodyContent","login");
+        logger.info("Pristapeno e do login stranata");
         return "master-template";
     }
 
@@ -34,6 +38,7 @@ public class LoginController {
             user = this.authService.login(request.getParameter("username"),
                     request.getParameter("password"));
             request.getSession().setAttribute("user", user);
+            logger.info("Korisnik e najaven");
             return "redirect:/profesor";
         }
         catch (InvalidUserCredentialsException exception) {

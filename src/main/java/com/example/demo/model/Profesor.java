@@ -42,6 +42,9 @@ public class Profesor {
     public String getPrezime() {
         return prezime;
     }
+    public String getImeiPrezime(){
+        return getPrezime() + getIme();
+    }
 
     public String getEmail() {
         return email;
