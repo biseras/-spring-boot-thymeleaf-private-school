@@ -41,9 +41,9 @@ public class RegisterController {
                            @RequestParam String repeatedPassword,
                            @RequestParam String name,
                            @RequestParam String surname,
-                           @RequestParam Role role) {
+                           @RequestParam(required = false) Role role) {
         try{
-            this.userService.register(username, password, repeatedPassword, name, surname, role);
+            this.userService.register(username, password, repeatedPassword, name, surname,role);
             return "redirect:/login";
         } catch (InvalidArgumentsException | PasswordsDoNotMatchException exception) {
             return "redirect:/register?error=" + exception.getMessage();

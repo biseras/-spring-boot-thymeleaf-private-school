@@ -99,4 +99,8 @@ public class User implements UserDetails {
     public void setSurname(String surname) {
         this.surname = surname;
     }
+
+    public void setRole(Role role) {
+        this.role = role;
+    }
 }

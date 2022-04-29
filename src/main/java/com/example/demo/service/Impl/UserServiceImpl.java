@@ -30,15 +30,23 @@ public class UserServiceImpl implements UserService {
 
 
     @Override
-    public User register(String username, String password, String repeatPassword, String name, String surname, Role userRole) {
+    public User register(String username, String password, String repeatPassword, String name, String surname, Role role) {
         if (username==null || username.isEmpty()  || password==null || password.isEmpty())
             throw new PasswordsDoNotMatchException();
         if (!password.equals(repeatPassword))
             throw new PasswordsDoNotMatchException();
         if(this.userRepository.findByUsername(username).isPresent())
             throw new UsernameAlreadyExistsException(username);
-        User user = new User(username,passwordEncoder.encode(password), name, surname, userRole);
+        User user = new User(username,passwordEncoder.encode(password), name, surname, role);
         return userRepository.save(user);
+    }
+
+    @Override
+    public User urediuloga(String username, Role role) {
+        User user=userRepository.findByUsername(username).orElseThrow(()->new UsernameNotFoundException(username));
+        user.setRole(role);
+        return userRepository.save(user);
+
     }
 
 }
