@@ -1,7 +1,7 @@
 <th:block xmlns:th="http://www.thymeleaf.org">
     <section class="jumbotron text-center">
         <div class="container">
-            <h1 class="jumbotron-heading">Profesor</h1>
+            <h1 class="jumbotron-heading">Професор</h1>
         </div>
     </section>
 
@@ -11,59 +11,59 @@
                 <form action="/profesor/add" method="POST">
                     <input id="id" type="hidden" name="id" th:value="(${profesor} != null ? ${profesor.getId()} : '')">
                     <div class="form-group">
-                        <label for="ime">Ime</label>
+                        <label for="ime">Име</label>
                         <input type="text"
                                class="form-control"
                                id="ime"
                                name="ime"
                                th:value="(${profesor} != null ? ${profesor.getIme()} : '')"
                                required
-                               placeholder="Enter product name">
+                               placeholder="Внеси име">
                     </div>
                     <div class="form-group">
-                        <label for="prezime">Prezime</label>
+                        <label for="prezime">Презиме</label>
                         <input type="text"
                                class="form-control"
                                id="prezime"
                                name="prezime"
                                th:value="(${profesor} != null ? ${profesor.getPrezime()} : '')"
-                               placeholder="Price">
+                               placeholder="Внеси презиме">
                     </div>
                     <div class="form-group">
-                        <label for="objasnuvanje">Kratko objasnuvanje</label>
+                        <label for="objasnuvanje">Вовед</label>
                         <input type="text"
                                class="form-control"
                                id="objasnuvanje"
                                name="objasnuvanje"
                                th:value="(${profesor} != null ? ${profesor.getObjasnuvanje()} : '')"
-                               placeholder="Quantity">
+                               placeholder="Вовед">
                     </div>
                     <div class="form-group">
-                        <label for="biografija">Biografija</label>
+                        <label for="biografija">Општи информации</label>
                         <input type="text"
                                class="form-control"
                                id="biografija"
                                name="biografija"
                                th:value="(${profesor} != null ? ${profesor.getBiografija()} : '')"
-                               placeholder="Quantity">
+                               placeholder="Општи информации">
                     </div>
                     <div class="form-group">
-                        <label for="obrazovanieirabotnoiskustvo">Obrazovanie</label>
+                        <label for="obrazovanieirabotnoiskustvo">Образование и работно искуство</label>
                         <input type="text"
                                class="form-control"
                                id="obrazovanieirabotnoiskustvo"
                                name="obrazovanieirabotnoiskustvo"
                                th:value="(${profesor} != null ? ${profesor.getObrazovanieirabotnoiskustvo()} : '')"
-                               placeholder="Quantity">
+                               placeholder="Образование и работно искуство">
                     </div>
                     <div class="form-group">
-                        <label for="datumodkogaraboti">Biografija</label>
+                        <label for="datumodkogaraboti">Датум од кога е вработен</label>
                         <input type="text"
                                class="form-control"
                                id="datumodkogaraboti"
                                name="datumodkogaraboti"
                                th:value="(${profesor} != null ? ${profesor.getDatumodkogaraboti()} : '')"
-                               placeholder="Quantity">
+                               placeholder="ДД/ММ/ГГ">
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
@@ -72,10 +72,10 @@
                                id="email"
                                name="email"
                                th:value="(${profesor} != null ? ${profesor.getEmail()} : '')"
-                               placeholder="Quantity">
+                               placeholder="Email">
                     </div>
-                    <button id="submit" type="submit" class="btn btn-primary">Submit</button>
-                    <a type="button" class="btn btn-primary" href="/profesor">Back</a>
+                    <button id="submit" type="submit" class="btn btn-primary">Објави</button>
+                    <a type="button" class="btn btn-primary" href="/profesor">Назад</a>
                 </form>
             </div>
         </div>

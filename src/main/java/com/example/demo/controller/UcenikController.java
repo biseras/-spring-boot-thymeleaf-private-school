@@ -4,6 +4,8 @@ import com.example.demo.model.Predmet;
 import com.example.demo.model.Ucenik;
 import com.example.demo.repository.PredmetRepository;
 import com.example.demo.service.UcenikService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -15,6 +17,7 @@ import java.util.List;
 public class UcenikController {
     private final UcenikService ucenikService;
     private final PredmetRepository predmetRepository;
+    Logger logger = LoggerFactory.getLogger(LoginController.class);
 
     public UcenikController(UcenikService ucenikService, PredmetRepository predmetRepository) {
         this.ucenikService = ucenikService;
@@ -22,25 +25,22 @@ public class UcenikController {
     }
 
     @GetMapping
-    public String getProductPage(@RequestParam(required = false) String error, Model model) {
-       // if (error != null && !error.isEmpty()) {
-         ////   model.addAttribute("hasError", true);
-        //    model.addAttribute("error", error);
-       // }
+    public String getUcenikPage(@RequestParam(required = false) String error, Model model) {
         List<Ucenik> uceniks = this.ucenikService.listAll();
         model.addAttribute("ucenik", uceniks);
         model.addAttribute("bodyContent", "ucenik");
+        logger.info("Pritapeno e do stranata so predmeti");
         return "master-template";
     }
 
     @DeleteMapping("/delete/{id}")
-    public String deleteProduct(@PathVariable Long id) {
+    public String deleteUcenik(@PathVariable Long id) {
         this.ucenikService.deleteById(id);
         return "redirect:/ucenik";
     }
 
     @GetMapping("/edit-form/{id}")
-    public String editProductPage(@PathVariable Long id, Model model) {
+    public String editUcenikPage(@PathVariable Long id, Model model) {
         if (this.ucenikService.findById(id).isPresent()) {
             Ucenik ucenik = this.ucenikService.findById(id).get();
             List<Predmet> predmet = this.predmetRepository.findAll();
@@ -53,7 +53,7 @@ public class UcenikController {
     }
 
     @GetMapping("/add-form")
-    public String addProductPage(Model model) {
+    public String addUcenikPage(Model model) {
         List<Predmet> predmet = this.predmetRepository.findAll();
         model.addAttribute("predmet", predmet);
         model.addAttribute("bodyContent", "add-ucenik");

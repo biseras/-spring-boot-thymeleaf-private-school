@@ -43,7 +43,7 @@ public class Ucenik {
     }
 
     public String getImeiPrezime(){
-        return getPrezime() + getIme();
+        return getPrezime() + " "+ getIme();
     }
     public String getPrezime() {
         return prezime;

@@ -1,6 +1,5 @@
 
-
-    <img style="width: 100%" src="https://3.files.edl.io/1257/18/09/10/160957-d0ff1792-78de-42c6-9638-6d81a86bbe2a.jpg"/>
+<img style="width: 100%" src="https://3.files.edl.io/1257/18/09/10/160957-d0ff1792-78de-42c6-9638-6d81a86bbe2a.jpg"/>
 <div xmlns:th="http://www.thymeleaf.org">
 <div class="container" style="background-color: ghostwhite">
     <div class="container__text">
@@ -8,14 +7,13 @@
         <div th:value="(${izvestuvanje} != null ? ${izvestuvanje.getId()} : '')">
             <br>
             <h1 style="text-align: center" th:text="${izvestuvanje.getNaslov()}"></h1>
-            <h2>Objaveno od profesor <i th:text="${izvestuvanje.getProfesor().getIme()}"></i><i th:text="${izvestuvanje.getProfesor().getPrezime()}"></i></h2>
+            <h2>Објавено од <i th:text="${izvestuvanje.getProfesor().getIme()}"></i><i th:text="${izvestuvanje.getProfesor().getPrezime()}"></i></h2>
             <h2><i th:text="${izvestuvanje.getKategorija()}"></i></h2>
             <br>
         </div>
     </div><br>
 
     <h3><i th:text="${izvestuvanje.getKratokvoved()}"></i></h3>
-    <p th:text="${izvestuvanje.getCeloizvestuvanje()}"></p>
+    <h3 th:text="${izvestuvanje.getCeloizvestuvanje()}"></h3>
     </div>
-</div>
 </div>

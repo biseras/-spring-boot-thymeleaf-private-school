@@ -7,8 +7,12 @@
         <div class="row">
             <div class="col-md-5">
                 <form action="/role/urediuloga" method="POST">
+                    <br>
+                    <h2>Додај улога на ученик или професор да може да се активира нивната корисничка сметка</h2>
                     <div class="form-group">
-                        <label for="user">Predmet</label><br/>
+                        <br>
+                        <label for="user">Избери</label><br/>
+                        <br>
                         <select id="user" name="user">
                             <!-- For each course you should have one <option> like below  -->
                             <option th:each="user:${user}" th:value="${user.username}" th:text="${user.username}"> [user.username]</option>
@@ -16,16 +20,19 @@
                     </div>
                     <br>
                     <div class="form-check form-check-inline">
+                        <input class="form-check-input" name="role" type="radio" id="ROLE_ADMINISTRATOR" value="ROLE_ADMINISTRATOR">
+                        <label class="form-check-label" for="ROLE_ADMINISTRATOR">АДМИНИСТРАТОР</label>
+                    </div>
+                    <div class="form-check form-check-inline">
                         <input class="form-check-input" name="role" type="radio" id="ROLE_PROFESOR" value="ROLE_PROFESOR">
-                        <label class="form-check-label" for="ROLE_PROFESOR">ROLE_PROFESOR</label>
+                        <label class="form-check-label" for="ROLE_PROFESOR">ПРОФЕСОР</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" name="role"  type="radio" id="ROLE_UCENIK" value="ROLE_UCENIK">
-                        <label class="form-check-label" for="ROLE_UCENIK">ROLE_UCENIK</label>
+                        <label class="form-check-label" for="ROLE_UCENIK">УЧЕНИК</label>
                     </div>
 
-                    <button id="submit" type="submit" class="btn btn-primary">Објави</button>
-                    <a type="button" class="btn btn-primary" href="/login">Назад</a>
+                    <button id="submit" type="submit" class="btn btn-primary">Зачувај</button>
                 </form>
             </div>
         </div>

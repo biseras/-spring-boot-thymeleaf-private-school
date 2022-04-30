@@ -14,18 +14,18 @@
                                       </div>
                                 <div class="col-md-9">
                                     <h5 th:text="${izvestuvanje.getKratokvoved()}"></h5> <span>
-                              <th:block>
+                              <th:block sec:authorize="hasRole('ROLE_ADMINISTRATOR')">
                                     <a th:href="@{'/izvestuvanje/edit-form/{id}' (id=${izvestuvanje.getId()})}"
                                        class="btn btn-sm btn-info edit-product">
-                                        <i>Edit</i>
+                                        <i>Уреди</i>
                                     </a>
                                 </th:block>
-                              <th:block>
+                              <th:block sec:authorize="hasRole('ROLE_ADMINISTRATOR')">
                                     <form th:action="@{'/izvestuvanje/delete/{id}' (id=${izvestuvanje.getId()})}"
                                           th:method="DELETE">
                                         <button type="submit"
                                                 class="btn btn-sm btn-danger delete-product">
-                                            <i class="fa fa-trash">Delete</i>
+                                            <i class="fa fa-trash">Избриши</i>
                                         </button>
                                     </form>
                                 </th:block>
@@ -33,14 +33,12 @@
                                   th:method="GET">
                             <button type="submit"
                                     class="btn btn-sm btn-primary cart-product">
-                                <i>Read more</i>
+                                <i>Прочитај повеќе</i>
                             </button>
                         </form>
-                          </span>
                                 </div>
                             </div>
                         </div>
-
                             <br>
                 </div>
             </div>
@@ -48,24 +46,11 @@
     </div>
     <div class="col mb-3">
         <div class="row">
-            <div class="col-sm-12 col-md-12">
+            <div class="col-sm-12 col-md-12" sec:authorize="hasRole('ROLE_PROFESOR')">
                 <a href="/izvestuvanje/add-form" class="btn btn-block btn-dark add-product-btn">
-                    Add new izvestuvanje
+                    Додади известување
                 </a>
             </div>
         </div>
-    </div>
-</div>
-
-
-
-
-
-
-
-<div class="container">
-
-<br>
-
     </div>
 </div>

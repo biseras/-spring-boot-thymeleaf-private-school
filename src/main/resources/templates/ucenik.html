@@ -1,7 +1,7 @@
 <div xmlns:th="http://www.thymeleaf.org">
     <section class="jumbotron text-center">
         <div class="container">
-            <h1 class="jumbotron-heading">Информации за студентите</h1>
+            <h1 class="jumbotron-heading">Информации за учениците</h1>
         </div>
     </section>
 
@@ -16,16 +16,19 @@
                                   <div>Адреса: <b th:text="${ucenik.getAdresa()}"></b></div>
                                   <div>Датум на раѓање: <b th:text="${ucenik.getDatum()}"></b></div>
                                   <div>E-mail на студентот: <b th:text="${ucenik.getEmail()}"></b></div>
-
+                                 <div><b>Запишани предмети</b></div>
+                                 <ul th:each="predmet : ${ucenik.getPredmetinaucenik()}">
+                                     <li th:text="${predmet.getPredmet.getIme()}"><b th:text="${predmet.getOcenka()}"></b></li>
+                                 </ul>
                              </div>
                           <span>
-                              <th:block sec:authorize="hasRole('ROLE_PROFESOR')">
+                              <th:block sec:authorize="hasRole('ROLE_ADMINISTRATOR')">
                                     <a th:href="@{'/ucenik/edit-form/{id}' (id=${ucenik.getId()})}"
                                        class="btn btn-sm btn-info edit-product">
                                         <i class="glyphicon glyphicon-edit">Уреди</i>
                                     </a>
                                 </th:block>
-                              <th:block sec:authorize="hasRole('ROLE_PROFESOR')">
+                              <th:block sec:authorize="hasRole('ROLE_ADMINISTRATOR')">
                                     <form th:action="@{'/ucenik/delete/{id}' (id=${ucenik.getId()})}"
                                           th:method="DELETE">
                                         <button type="submit"
@@ -42,7 +45,7 @@
     </div>
     <div class="col mb-3">
         <div class="row">
-            <div class="col-sm-12 col-md-12" sec:authorize="hasRole('ROLE_PROFESOR')">
+            <div class="col-sm-12 col-md-12" sec:authorize="hasRole('ROLE_ADMINISTRATOR')">
                 <a href="/ucenik/add-form" class="btn btn-block btn-dark add-product-btn">
                     Додади нов студент
                 </a>

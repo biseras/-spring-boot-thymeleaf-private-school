@@ -6,8 +6,8 @@
                 <div class="card">
                     <img src="https://p.kindpng.com/picc/s/78-786000_user-woman-avatar-person-business-woman-png-icon.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Nastaven kadar</h5>
-                        <p class="card-text">Procitajte gi site poznacsajni informacii za nastavnniot kadar vo naseto uciliste</p>
+                        <h5 class="card-title">Наставен кадар</h5>
+                        <p class="card-text">Прочитајте повеќе за професорите кои се дел од нашето училиште</p>
                     </div>
                 </div>
             </div>
@@ -19,26 +19,26 @@
                     <div class="card-body">
                         <h5 th:text="${profesor.getIme()}" class="card-title"></h5>
                         <h5 th:text="${profesor.getPrezime()}" class="card-title"></h5>
-                        <p> hgcgcgfcfcfgcgcv gvgb vhv </p>
+                        <th:block sec:authorize="hasRole('ROLE_ADMINISTRATOR')">
                         <form th:action="@{'/profesor/delete/{id}' (id=${profesor.getId()})}"
                               th:method="DELETE">
                             <button type="submit"
                                     class="btn btn-sm btn-danger delete-product">
-                                <i class="fa fa-trash">Delete</i>
+                                <i class="fa fa-trash">Избриши</i>
                             </button>
                         </form>
                         </th:block>
-                        <th:block>
+                        <th:block sec:authorize="hasRole('ROLE_ADMINISTRATOR')">
                             <a th:href="@{'/profesor/edit-form/{id}' (id=${profesor.getId()})}"
                                class="btn btn-sm btn-info edit-product">
-                                <i class="fa fa-trash">Edit</i>
+                                <i>Уреди</i>
                             </a>
                         </th:block>
                         <form th:action="@{'/profesor/details/{id}' (id=${profesor.getId()})}"
                               th:method="GET">
                             <button type="submit"
                                     class="btn btn-sm btn-primary cart-product">
-                                <i class="fa fa-trash">Read more</i>
+                                <i>Прочитај повеќе</i>
                             </button>
                         </form>
                     </div>
@@ -57,9 +57,9 @@
 </div>
     <div class="col mb-3">
         <div class="row">
-            <div class="col-sm-12 col-md-12">
+            <div class="col-sm-12 col-md-12" sec:authorize="hasRole('ROLE_ADMINISTRATOR')">
                 <a href="/profesor/add-form" class="btn btn-block btn-dark add-product-btn">
-                    Add new profesor
+                    Додади професор
                 </a>
             </div>
         </div>

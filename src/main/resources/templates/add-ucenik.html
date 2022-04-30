@@ -56,57 +56,57 @@
                                th:value="(${ucenik} != null ? ${ucenik.getEmail()} : '')"
                                placeholder="E-mail">
                     </div>
-                    <label for="predmet1">Predmet</label><br/>
+                    <label for="predmet1">Предмет</label><br/>
                     <select id="predmet1" name="predmet1">
                         <!-- For each course you should have one <option> like below  -->
                         <option th:each="predmet:${predmet}" th:value="${predmet.id}" th:text="${predmet.ime}"> [predmet.ime]</option>
                     </select>
                     <div>
-                        <label for="ocenka1">Quantity (between 1 and 5):</label>
+                        <label for="ocenka1">Оценка:</label>
                         <input type="number" id="ocenka1" name="ocenka1" min="1" max="5">
                     </div>
                     <div>
-                        <label for="predmet2">Predmet</label><br/>
+                        <label for="predmet2">Предмет</label><br/>
                         <select id="predmet2" name="predmet2">
                             <!-- For each course you should have one <option> like below  -->
                             <option th:each="predmet:${predmet}" th:value="${predmet.id}" th:text="${predmet.ime}"> [predmet.ime]</option>
                         </select>
                     </div>
                     <div>
-                        <label for="ocenka2">Quantity (between 1 and 5):</label>
+                        <label for="ocenka2">Оценка:</label>
                         <input type="number" id="ocenka2" name="ocenka2" min="1" max="5">
                     </div>
                     <div>
-                        <label for="predmet3">Predmet</label><br/>
+                        <label for="predmet3">Предмет</label><br/>
                         <select id="predmet3" name="predmet3">
                             <!-- For each course you should have one <option> like below  -->
                             <option th:each="predmet:${predmet}" th:value="${predmet.id}" th:text="${predmet.ime}"> [predmet.ime]</option>
                         </select>
                     </div>
                     <div>
-                        <label for="ocenka3">Quantity (between 1 and 5):</label>
+                        <label for="ocenka3">Оценка:</label>
                         <input type="number" id="ocenka3" name="ocenka3" min="1" max="5">
                     </div>
                     <div>
-                        <label for="predmet4">Predmet</label><br/>
+                        <label for="predmet4">Предмет</label><br/>
                         <select id="predmet4" name="predmet4">
                             <!-- For each course you should have one <option> like below  -->
                             <option th:each="predmet:${predmet}" th:value="${predmet.id}" th:text="${predmet.ime}"> [predmet.ime]</option>
                         </select>
                     </div>
                     <div>
-                        <label for="ocenka4">Quantity (between 1 and 5):</label>
+                        <label for="ocenka4">Оценка:</label>
                         <input type="number" id="ocenka4" name="ocenka4" min="1" max="5">
                     </div>
                     <div>
-                        <label for="predmet5">Predmet</label><br/>
+                        <label for="predmet5">Предмет</label><br/>
                         <select id="predmet5" name="predmet5">
                             <!-- For each course you should have one <option> like below  -->
                             <option th:each="predmet:${predmet}" th:value="${predmet.id}" th:text="${predmet.ime}"> [predmet.ime]</option>
                         </select>
                     </div>
                     <div>
-                        <label for="ocenka5">Quantity (between 1 and 5):</label>
+                        <label for="ocenka5">Оценка:</label>
                         <input type="number" id="ocenka5" name="ocenka5" min="1" max="5">
                     </div>
                     <button id="submit" type="submit" class="btn btn-primary">Зачувај</button>

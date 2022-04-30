@@ -6,6 +6,8 @@ import com.example.demo.model.Exception.PasswordsDoNotMatchException;
 import com.example.demo.model.User;
 import com.example.demo.repository.UserRepository;
 import com.example.demo.service.UserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,6 +22,7 @@ import java.util.List;
 public class RoleContorler {
     private final UserService userService;
     private final UserRepository userRepository;
+    Logger logger = LoggerFactory.getLogger(LoginController.class);
 
     public RoleContorler(UserService userService, UserRepository userRepository) {
         this.userService = userService;
@@ -34,6 +37,7 @@ public class RoleContorler {
         List<User> userList=userRepository.findAll();
         model.addAttribute("user",userList);
         model.addAttribute("bodyContent","role");
+        logger.info("Pristapeno e do stranata za dodavanje uloga");
         return "master-template";
     }
 

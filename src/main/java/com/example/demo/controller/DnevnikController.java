@@ -6,6 +6,8 @@ import com.example.demo.repository.PredmetRepository;
 import com.example.demo.repository.PredmetnaUcenikRepository;
 import com.example.demo.service.DnevnikService;
 import com.example.demo.service.UcenikService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -20,6 +22,7 @@ public class DnevnikController {
     private final PredmetRepository predmetRepository;
     private final PredmetnaUcenikRepository predmetnaUcenikRepository;
     private final UcenikService ucenikService;
+    Logger logger = LoggerFactory.getLogger(LoginController.class);
 
     public DnevnikController(DnevnikService dnevnikService, DnevnikRepository dnevnikRepository, PredmetRepository predmetRepository, PredmetnaUcenikRepository predmetnaUcenikRepository, UcenikService ucenikService) {
         this.dnevnikService = dnevnikService;
@@ -42,6 +45,7 @@ public class DnevnikController {
         model.addAttribute("ucenik", uceniks);
         model.addAttribute("dnevnik", dnevniks);
         model.addAttribute("bodyContent", "dnevnik");
+        logger.info("Pristapeno e do stranata za dnevnik");
         return "master-template";
     }
 

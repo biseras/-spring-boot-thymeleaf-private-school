@@ -27,8 +27,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
         http.csrf().disable()
                 .authorizeRequests()
-                .antMatchers("/", "/home", "/assets/**", "/register", "/login", "/izvestuvanje", "/izvestuvanje/details/**", "/profesor", "/profesor/details/**", "/predmet", "/predmet/details/**", "/contact", "/contact/**").permitAll()
-                .antMatchers("/admin/**", "/dnevnik/delete/**", "/dnevnik/edit-form/**", "/dnevnik/add-form/**", "/ucenik/delete/**", "/ucenik/edit-form/**", "/ucenik/add-form/**", "/izvestuvanje/delete/**", "/izvestuvanje/edit-form/**", "/izvestuvanje/add-form/**").hasRole("PROFESOR")
+                .antMatchers("/", "/home", "/assets/**", "/register", "/login", "/izvestuvanje", "/izvestuvanje/details/**", "/profesor", "/profesor/details/**", "/predmet", "/predmet/details/**", "/contact", "/contact/**", "/role", "/role/**").permitAll()
+                .antMatchers("/admin/**", "/dnevnik/delete/**", "/dnevnik/edit-form/**", "/dnevnik/add-form/**", "/ucenik/delete/**", "/ucenik/edit-form/**", "/ucenik/add-form/**", "/izvestuvanje/delete/**", "/izvestuvanje/edit-form/**", "/izvestuvanje/add-form/**").hasRole("ADMINISTRATOR")
+                .antMatchers("/admin/**", "/izvestuvanje/edit-form/**", "/izvestuvanje/add-form/**", "/izvestuvanje/add").hasRole("PROFESOR")
                 .antMatchers("/admin/**").hasRole("UCENIK")
                 .anyRequest()
                 .authenticated()

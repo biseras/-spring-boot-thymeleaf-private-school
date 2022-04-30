@@ -1,7 +1,7 @@
 <header xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="/">E-Dnevnik</a>
+            <a class="navbar-brand" href="/">E-Дневник</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
                     aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -10,39 +10,42 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item m-auto">
-                        <a class="nav-link active" sec:authorize="isAuthenticated()" href="/ucenik">Students</a>
+                        <a class="nav-link active" sec:authorize="isAuthenticated()" href="/ucenik">Ученици</a>
                     </li>
                     <li class="nav-item m-auto">
-                        <a class="nav-link active" href="/profesor">Profesor</a>
+                        <a class="nav-link active" href="/profesor">Наставен кадар</a>
                     </li>
                     <li class="nav-item m-auto">
-                        <a class="nav-link active" href="/izvestuvanje">Izvestuvanje</a>
+                        <a class="nav-link active" href="/izvestuvanje">Огласна табла</a>
                     </li>
                     <li class="nav-item m-auto">
-                        <a class="nav-link active" href="/predmet">Predmeti</a>
+                        <a class="nav-link active" href="/predmet">Предмети</a>
                     </li>
                     <li class="nav-item m-auto">
-                        <a class="nav-link active" sec:authorize="isAuthenticated()" href="/dnevnik">Dnevnik</a>
+                        <a class="nav-link active" sec:authorize="isAuthenticated()" href="/dnevnik">Дневник</a>
                     </li>
                     <li class="nav-item m-auto">
-                        <a class="nav-link active" href="/contact">Contact</a>
+                        <a class="nav-link active" sec:authorize="hasRole('ROLE_ADMINISTRATOR')" href="/role">Додај улога</a>
+                    </li>
+                    <li class="nav-item m-auto">
+                        <a class="nav-link active" href="/contact">Контакт</a>
                     </li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item" sec:authorize="isAuthenticated()">
                         <a class="btn btn-light btn-sm ml-3"  href="/logout">
-                            <i></i> Logout
+                            <i></i> Одјава
                         </a>
                     </li>
                     <li class="nav-item" sec:authorize="!isAuthenticated()">
                         <a class="btn btn-light btn-sm ml-3" href="/login">
-                            <i></i> Login
+                            <i></i> Најава
                         </a>
                     </li>
                     <li class="nav-item" sec:authorize="!isAuthenticated()">
                         <a class="btn btn-light btn-sm ml-3" href="/register">
-                            <i></i> Register
+                            <i></i> Регистрирај се
                         </a>
                     </li>
                 </ul>

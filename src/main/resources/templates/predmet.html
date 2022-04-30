@@ -9,23 +9,26 @@
             </div>
             <div class="col-8" th:if="${predmet.size() > 0}">
                 <div class="card text-center" th:each="predmet : ${predmet}">
-                    <div th:text="${predmet.getIme()}" class="card-header">Featured</div>
+                    <div th:text="${predmet.getIme()}" class="card-header"></div>
                     <div class="card-body">
-                        <h5 th:text="${predmet.getOpis()}" class="card-title">NASA Launched Solar Probe</h5>
+                        <h5 th:text="${predmet.getOpis()}" class="card-title"></h5>
+                        <h5 th:text="${predmet.getVovedzapredmetot()}"></h5>
+<!--                        <h5></h5>-->
+<!--                        <ul th:each="profesor : ${predmet.getProfesor()}">-->
+<!--                            <li th:text="${predmet.getProfesor().getImeiPrezime()}"></li>-->
+<!--                        </ul>-->
                         <span>
-                              <th:block>
+                              <th:block sec:authorize="hasRole('ROLE_ADMINISTRATOR')">
                                     <a th:href="@{'/predmet/edit-form/{id}' (id=${predmet.getId()})}"
                                        class="btn btn-sm btn-info edit-product">
-                                        <i class="fa fa-trash">Edit</i>
+                                        <i class="fa fa-trash">Уреди</i>
                                     </a>
                                 </th:block>
-                              <th:block>
-                                    <form th:action="@{'/predmet/delete/{id}' (id=${predmet.getId()})}"
-                                          th:method="DELETE">
-                                        <button type="submit"
-                                                class="btn btn-sm btn-danger delete-product">
-                                            <i class="fa fa-trash">Delete</i>
-                                        </button>
+                             <th:block sec:authorize="hasRole('ROLE_ADMINISTRATOR')">
+                                    <form th:action="@{'/predmet/delete/{id}' (id=${predmet.getId()})}" th:method="DELETE">
+                                        <button type="submit" class="btn btn-sm btn-danger delete-product">
+                                            <i class="fa fa-trash">Избриши</i>
+                                       </button>
                                     </form>
                                 </th:block>
                           </span>
@@ -39,9 +42,9 @@
     </div>
     <div class="col mb-3">
         <div class="row">
-            <div class="col-sm-12 col-md-12">
+                <div class="col-sm-12 col-md-12" sec:authorize="hasRole('ROLE_ADMINISTRATOR')">
                 <a href="/predmet/add-form" class="btn btn-block btn-dark add-product-btn">
-                    Add new izvestuvanje
+                    Додади предмет
                 </a>
             </div>
         </div>

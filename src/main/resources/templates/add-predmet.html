@@ -1,9 +1,4 @@
 <th:block xmlns:th="http://www.thymeleaf.org">
-    <section class="jumbotron text-center">
-        <div class="container">
-            <h1 class="jumbotron-heading">Students</h1>
-        </div>
-    </section>
 
     <div class="container">
         <div class="row">
@@ -11,42 +6,42 @@
                 <form action="/predmet/add" method="POST">
                     <input id="id" type="hidden" name="id" th:value="(${predmet} != null ? ${predmet.getId()} : '')">
                     <div class="form-group">
-                        <label for="ime">Ime</label>
+                        <label for="ime">Име</label>
                         <input type="text"
                                class="form-control"
                                id="ime"
                                name="ime"
                                th:value="(${predmet} != null ? ${predmet.getIme()} : '')"
                                required
-                               placeholder="Enter product name">
+                               placeholder="Внеси име на предметот">
                     </div>
                     <div>
-                        <label>Profesor</label><br/>
+                        <label>Професор</label><br/>
                         <select id="profesor" name="profesor"  multiple>
                             <!-- For each course you should have one <option> like below  -->
                             <option th:each="profesor:${profesor}" th:value="${profesor.id}" th:text="${profesor.ime}"> [profesor.ime]</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="vovedzapredmetot">Prezime</label>
+                        <label for="vovedzapredmetot">Објаснување за предметот</label>
                         <input type="text"
                                class="form-control"
                                id="vovedzapredmetot"
                                name="vovedzapredmetot"
                                th:value="(${predmet} != null ? ${predmet.getVovedzapredmetot()} : '')"
-                               placeholder="Price">
+                               placeholder="Објаснување за предметот">
                     </div>
                     <div class="form-group">
-                        <label for="opis">Datum na ragjanje</label>
+                        <label for="opis">Опис за предметот</label>
                         <input type="text"
                                class="form-control"
                                id="opis"
                                name="opis"
                                th:value="(${predmet} != null ? ${predmet.getOpis()} : '')"
-                               placeholder="Price">
+                               placeholder="Опис за предметот">
                     </div>
-                    <button id="submit" type="submit" class="btn btn-primary">Submit</button>
-                    <a type="button" class="btn btn-primary" href="/predmet">Back</a>
+                    <button id="submit" type="submit" class="btn btn-primary">Објави</button>
+                    <a type="button" class="btn btn-primary" href="/predmet">Назад</a>
                 </form>
             </div>
         </div>
